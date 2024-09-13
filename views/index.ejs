@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GitHub Stats</title>
+</head>
+<body>
+    <h1>GitHub Stats for <%= userData.login %></h1>
+    <p><strong>Followers:</strong> <%= userData.followers %></p>
+    <p><strong>Repositories:</strong> <%= userData.public_repos %></p>
+    <p><strong>Profile URL:</strong> <a href="<%= userData.html_url %>"><%= userData.html_url %></a></p>
+</body>
+</html>
+
